@@ -1,0 +1,81 @@
+html,body,span,applet,object,iframe,h1,h2,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}:focus{outline:0}body{line-height:1;color:black;background:white}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:""""}a{text-decoration:none}
+
+
+h3 {font-size: 40px;color: black !important}
+
+body {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif}
+
+a {color:#888}
+a:hover {color:#333}
+
+strong {font-weight:bold}
+em {font-style:italic}
+
+#main {width:620px;position:relative;left:370px;top:40px}
+
+
+/* logo */
+.logo {position:fixed;left:200px;top:39px;width:102px;height:25px}
+#logo-cover a {text-indent:-9999em;display:block;width:102px;height:25px;cursor:pointer}
+#logo-cover {z-index:3;background:url(../images/logo.png) no-repeat 0 0;}
+#logo-image {z-index:2;display:none}
+
+
+/* szelet */
+.slice {width:200px;height:484px;position:fixed;left:0;bottom:0}
+#slice-cover {z-index:1;background:url(../images/slice.png) no-repeat 0 0}
+#slice-image {z-index:0;display:none}
+
+
+/* intro */
+#remove-cover, #cover {position:absolute;top:0;left:0;width:100%;height:200%;background:#fff;z-index:9997}
+#remove-cover {background:none;z-index:9996}
+#inner {background:#fff;text-align:center;position:absolute;top:50%;width:100%;height:1px;overflow:visible;visibility:visible;display:block}
+#intro {visibility:visible;position:absolute;background:#fff;width:360px;height:88px;z-index:9999}
+.v {width:360px;height:88px;position:fixed;top:30%;top:50%;left:50%;margin-left:-180px;margin-top: -44px}
+#v-cover {z-index:9998;background:url(../images/v.png) no-repeat 0 0}
+#v-cover2 {z-index:9999;background:url(../images/v.png) no-repeat 0 0}
+#v-image {z-index:9997;display:none}
+
+/* kapcsolat */
+#email {position: absolute}
+#emailtext {color: #888;margin-top:-31px;margin-left:55px;font-size: 16px}
+#phone {padding-top: 50px;}
+#phonetext {color: #888;margin-top:-31px;margin-left:55px;font-size: 16px}
+#facebook {padding-top: 20px;}
+#facebooktext {color: #888 !important;margin-top:-31px;margin-left:55px;font-size: 16px}
+#blog {padding-top: 20px;}
+#blogtext {color: #888 !important;margin-top:-31px;margin-left:55px;font-size: 16px}
+
+/* navigacio */
+#nav {background:#fff;padding-top:40px;position:fixed;z-index:5;left:370px;top:0;width:600px;text-transform:uppercase;height:100px;border-bottom:1px dotted #ccc}
+#nav li {line-height:11px}
+#nav li.top {float:left;position:relative;display:inline;font-size:14px;width:135px;margin-right:20px}
+#nav li.top.last {margin-right:0}
+#nav li a.top {display:block;padding:8px 0 10px 0;border-top:1px solid #ccc}
+#nav li.selected a.top, #nav li.top:hover, #nav li:hover a.top, #nav li a:hover {border-color:#333}
+#nav li ul {display:none;padding:4px 0;border-top:1px dotted #ccc;border-bottom:1px dotted #ccc;margin-bottom:20px}
+#nav li ul li {font-size:9px}
+#nav li ul li a {display:block;padding:3px 0;border:0}
+#nav li a.top.selected, #nav li ul li a.selected {color:#333}
+
+
+/* tartalom */
+#content {z-index:4;color:#333;position:absolute;left:370px;width:600px;display:none;padding-bottom:500px}
+#content h1 {margin-bottom:20px;font-size:16px;text-transform: uppercase;color: #888 !important}
+#content p {font-size:13px;line-height:22px;margin:0 0 11px;padding-right:30px}
+#content a {color:#888}
+#content a.arrow {display:block;background:url(../images/blue-right-arrow.gif) no-repeat 0 8px;padding-left:10px}
+#content a:hover {color:#333}
+
+.anchor {display:block;position: relative; padding-top: 160px}
+
+/* HEADERS */
+h1 {font-size:18px}
+h2 {font-size:18px;color:#888;margin-bottom:15px}
+
+
+/* HOME */
+#home h2 {font-size:16px;line-height:34px;margin-bottom:15px}
+#home h2 span a {color:#333}
+#home h2 span a:hover {color:#5886ad}
